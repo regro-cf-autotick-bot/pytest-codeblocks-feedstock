@@ -1,5 +1,5 @@
 {% set name = "pytest-codeblocks" %}
-{% set version = "0.10.3" %}
+{% set version = "0.10.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 11cd056fff950cc25b0c83fe04355b9a5c020463156424cfa7a385fef13b2299
+  sha256: c41cb51c3f0e5caab516fa0e30cfd0dad82dc92fcd17a8c11d3399492fec52c2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Test code blocks in your READMEs'
+  summary: Test code blocks in your READMEs
   dev_url: https://github.com/nschloe/pytest-codeblocks
 
 extra:
