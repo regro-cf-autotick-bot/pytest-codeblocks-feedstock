@@ -33,7 +33,7 @@ test:
     - README.md
     - tests
   commands:
-    - python -m pytest
+    - python -m pytest -p pytester
 
 about:
   home: https://github.com/nschloe/pytest-codeblocks
