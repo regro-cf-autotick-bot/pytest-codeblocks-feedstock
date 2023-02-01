@@ -1,13 +1,13 @@
 {% set name = "pytest-codeblocks" %}
-{% set version = "0.12.2" %}
+{% set version = "0.16.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6554cb970bdc5933dd70397b9f10c9495dc10b4765f83e6abbe2e96839053492
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 14cc14a78e578f30f505602eb7a6fb8a22d9c4664dfa9aca6429b93da6eaea2a
 
 build:
   noarch: python
