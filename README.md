@@ -1,11 +1,11 @@
-About pytest-codeblocks
-=======================
+About pytest-codeblocks-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-codeblocks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nschloe/pytest-codeblocks
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-codeblocks-feedstock/blob/main/LICENSE.txt)
 
 Summary: Test code blocks in your READMEs
 
